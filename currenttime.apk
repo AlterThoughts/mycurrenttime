@@ -1,0 +1,10 @@
+Calendar c = Calendar.getInstance(); 
+ 
+SimpleDateFormat sdf = new SimpleDateFormat("kkmm");
+ 
+Calendar c = Calendar.getInstance();  
+SimpleDateFormat sdf = new SimpleDateFormat("kkmm");  
+int i = Integer.parseInt(sdf.format(c.getTime()));  
+if (i < 2200) {  
+    // do stuff  
+}
